@@ -1,2 +1,12 @@
 strings = ['This', 'list', 'is', 'now', 'all', 'together']
 sentence = ''
+
+sentence = strings[0]
+i = 1
+for i in range(1, len(strings)):
+	sentence = sentence + " " + strings[i]
+	i += 1
+
+print(sentence)
+
+print(' '.join(strings))
